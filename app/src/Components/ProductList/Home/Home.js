@@ -17,9 +17,7 @@ export function Home(props) {
               <ProductCard
                 key={produto.id}
                 produto={produto}
-                // id={produto.id}
-                // name={produto.name}
-                // price={produto.price}
+                
               />
             );
           })}

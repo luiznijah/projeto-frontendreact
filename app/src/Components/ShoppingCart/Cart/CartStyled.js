@@ -6,4 +6,9 @@ export const CartStyle = styled.aside`
     background-color: MediumSlateBlue;
     color: white;
     padding: 5px;
+
+    h2{
+        color: black;
+        margin-left: 12px;
+    }
 `

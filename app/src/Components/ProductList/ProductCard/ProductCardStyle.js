@@ -11,9 +11,9 @@ export const ProductCardStyle = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 4px solid black;
+    border: 6px solid SlateGrey;
     border-radius: 18px;
-    box-shadow: 0px 0px 16px black;
+    box-shadow: 0px 0px 12px white;
     
     
 `;
