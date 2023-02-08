@@ -1,12 +1,14 @@
 import React from "react";
-import { ItemsStyled } from "./ItemsStyle";
+import { ItemsStyled, Button } from "./ItemsStyle";
 
 export function Items() {
 
 
     return(
         <ItemsStyled>
-            <h1>items</h1>
+            <p>1x</p>
+            <h4>nome do produto</h4>
+            <Button> Remover </Button>
         </ItemsStyled>
     )
 }

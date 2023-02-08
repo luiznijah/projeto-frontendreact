@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 
 export const CartStyle = styled.aside`
-    width: 12vw;
-    background-color: lightblue;
+    width: 16vw;
+    background-color: MediumSlateBlue;
     color: white;
     padding: 5px;
 `
