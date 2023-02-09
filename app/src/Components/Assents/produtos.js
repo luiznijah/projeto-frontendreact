@@ -1,7 +1,7 @@
 export const produtos = [
     {
       id: 1,
-      name: "Traje Epecial  + Capacete",
+      name: "Traje Espacial  + Capacete",
       image:'/Image/traje-1.png'  ,
       price: "R$100,00"
 

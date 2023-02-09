@@ -3,7 +3,6 @@ import { ProductCardStyle, Img, Button, Nome, Valor } from './ProductCardStyle'
 
 
 export function ProductCard(props) {
-console.log(props)
     return(
         <ProductCardStyle>
             <Img src={props.produto.image} />

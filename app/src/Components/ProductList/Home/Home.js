@@ -6,22 +6,17 @@ export function Home(props) {
   return (
     <>
       <ContainerHome>
-        <Select>
+        {/* <Select
+        value={props.ordination}
+        onChange={(e)=>{props.setOrdination(e.target.value)}} >
           <option value="ordenar">Ordenar</option>
           <option value="crescente">Crescente</option>
           <option value="decrescente">Decrescente</option>
-        </Select>
-        <HomeStyle>
-          {props.produtos.map((produto) => {
-            return (
-              <ProductCard
-                key={produto.id}
-                produto={produto}
-                
-              />
-            );
-          })}
-        </HomeStyle>
+        </Select> */}
+        {/* <HomeStyle>
+          <ProductCard/>
+          
+        </HomeStyle> */}
       </ContainerHome>
     </>
   );

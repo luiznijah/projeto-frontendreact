@@ -27,7 +27,7 @@ export const Img = styled.img`
 export const Nome = styled.h3`
     padding: 10px 0px;
 `
-export const Valor = styled.h4`
+export const Valor = styled.h2`
     color: red;
 `
 
