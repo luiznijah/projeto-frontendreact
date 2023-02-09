@@ -5,6 +5,7 @@ export function Header() {
   return (
     <HeaderStyle>
       <h1>LabeUniverse</h1>
+      
     </HeaderStyle>
   );
 }

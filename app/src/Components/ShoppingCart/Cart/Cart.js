@@ -8,6 +8,7 @@ export function Cart() {
 
     return(
         <CartStyle>
+            <h2>Cart</h2>
             <Items/>
             <Items/>
             <Items/>

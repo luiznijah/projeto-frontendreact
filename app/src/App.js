@@ -3,6 +3,7 @@ import { Header } from "./Components/Header/Header";
 import { Home } from "./Components/ProductList/Home/Home";
 import { Filters } from "./Components/Filters/Filters";
 import { Cart } from "./Components/ShoppingCart/Cart/Cart";
+import { produtos } from './Components/Assents/produtos'
 
 // import { Items } from "./Components/ShoppingCart/Items/Items";
 
@@ -24,6 +25,9 @@ const Container = styled.main`
 `;
 
 function App() {
+  
+
+  
   return (
     <>
       <GlobalStyle />
@@ -31,7 +35,10 @@ function App() {
 
       <Container>
         <Filters/>
-        <Home />
+        <Home 
+        produtos={produtos}
+        />
+
         <Cart/>
 
       </Container>
