@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const ProductCardStyle = styled.div`
     background-color: white;
     color: black;
-    height: 23em;
+    height: 20em;
     width: 15em;
     margin: auto;
     display: flex;
@@ -18,7 +18,7 @@ export const ProductCardStyle = styled.div`
     
 `;
 export const Img = styled.img`
-    height: 15em;
+    height: 20vh;
     display: block;
     padding-bottom: 8px;
     padding-top: 5px

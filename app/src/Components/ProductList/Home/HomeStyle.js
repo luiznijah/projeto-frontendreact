@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const HomeStyle = styled.div`
-    color: black;
-    
+    color: black;    
     width: 74vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
 `;
 
 export const Select = styled.select`
@@ -19,8 +19,10 @@ export const Select = styled.select`
 
 export const ContainerHome = styled.div`
     color: black;
-    background-color: lightcyan;
     width: 76vw;
     display: grid;
     background-image: url("https://http2.mlstatic.com/D_NQ_NP_940514-MLB27976930143_082018-O.jpg");
+    align-items: start;
+    grid-template-rows: 5vh 1fr 1fr;
+    gap: 10px;
 `;
